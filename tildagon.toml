@@ -1,0 +1,30 @@
+[app]
+# Name shown in the badge menu
+name = "EMF-LLM"
+
+# Menu/store category. One of:
+# "Badge", "Music", "Media", "Apps", "Games", "Background", "Pattern"
+category = "Apps"
+
+# This app drives the LEDs and screen only; it doesn't need wifi.
+wifi_preference = false
+
+[entry]
+# Must match the Application subclass name in app.py
+class = "EMFLLM"
+
+[metadata]
+# Your nickname (max 32 chars)
+author = "your-name"
+
+# SPDX licence id: https://spdx.org/licenses/  (pick what you want)
+license = "MIT"
+
+# Your repo URL
+url = "https://github.com/your-username/emf-llm"
+
+# Max 140 chars
+description = "A HAL 9000 tribute: the badge that thinks, then politely refuses. Occasionally sings Daisy Bell."
+
+# Integer-as-string. Bump this + cut a new release to publish an update.
+version = "0.0.1"

@@ -1,0 +1,5 @@
+# Keep development/docs files out of the badge download (app store respects this).
+README.md export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
+HAL9000.svg export-ignore
